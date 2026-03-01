@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caption Generator - InstaSpark</title>
+    <meta name="description" content="Generate engaging, creative, and viral social media captions for Instagram, Facebook, and TikTok. Multiple tones available.">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="../../../index.html" class="logo">
+                <img src="https://i.ibb.co/2YRg18bc/instaspark-logo.png" alt="InstaSpark Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span style="display:none; width:45px; height:45px; background:linear-gradient(135deg, #6366f1, #ec4899); border-radius:50%; align-items:center; justify-content:center; color:white; font-weight:800; border:2px solid #6366f1;">I</span>
+                <span class="logo-text">InstaSpark</span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="../../../index.html" class="nav-link">Home</a>
+                <a href="../../../about/index.html" class="nav-link">About</a>
+                <a href="../../../contact/index.html" class="nav-link">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" onclick="alert('Mobile menu coming soon')">☰</button>
+        </div>
+    </header>
+
+    <main class="tool-page">
+        <div class="tool-header">
+            <h1>✍️ Caption Generator</h1>
+            <p>Create engaging, viral-worthy captions for your social media posts</p>
+        </div>
+
+        <div class="tool-container">
+            <div class="form-group">
+                <label for="caption-keyword">Topic or Keyword *</label>
+                <input type="text" id="caption-keyword" placeholder="e.g., Morning coffee, Beach vacation, Workout...">
+                <p class="hint">What is your post about?</p>
+            </div>
+
+            <div class="form-group">
+                <label>Caption Tone</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="caption-tone" value="inspirational" checked>
+                        <span>🌟 Inspirational</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="caption-tone" value="funny">
+                        <span>😂 Funny</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="caption-tone" value="promotional">
+                        <span>📢 Promotional</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="caption-tone" value="storytelling">
+                        <span>📖 Storytelling</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="caption-tone" value="engaging">
+                        <span>💬 Engaging</span>
+                    </label>
+                </div>
+            </div>
+
+            <button class="btn btn-primary btn-lg" onclick="generateCaption()" style="width: 100%;">
+                ✍️ Generate Captions
+            </button>
+
+            <div id="results-section" class="results-section hidden">
+                <div class="results-header">
+                    <h3>📝 Generated Captions</h3>
+                    <span style="color: var(--text-muted); font-size: 0.875rem;">Click 📋 to copy</span>
+                </div>
+                <div id="caption-results" class="results-container"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="../../../index.html" class="logo">
+                    <img src="https://i.ibb.co/2YRg18bc/instaspark-logo.png" alt="InstaSpark" style="width:40px; height:40px;">
+                    <span class="logo-text">InstaSpark</span>
+                </a>
+                <p>Your all-in-one AI-powered toolkit for social media success. Create, optimize, and grow.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Tools</h4>
+                <ul>
+                    <li><a href="../../social-media/instagram-bio/index.html">Instagram Bio</a></li>
+                    <li><a href="../../social-media/hashtag-generator/index.html">Hashtag Generator</a></li>
+                    <li><a href="../caption-generator/index.html">Caption Generator</a></li>
+                    <li><a href="../../social-media/username-generator/index.html">Username Generator</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="../../../about/index.html">About Us</a></li>
+                    <li><a href="../../../contact/index.html">Contact</a></li>
+                    <li><a href="../../../privacy/index.html">Privacy Policy</a></li>
+                    <li><a href="../../../terms/index.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 InstaSpark. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="../../../privacy/index.html">Privacy</a>
+                <a href="../../../terms/index.html">Terms</a>
+                <a href="../../../disclaimer/index.html">Disclaimer</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../../js/tools.js"></script>
+</body>
+</html>
