@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools Dashboard - InstaSpark</title>
+    <meta name="description" content="Access all InstaSpark tools from one dashboard. Social media tools, AI content generators, and utility tools.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Google Translate -->
+    <script src="../js/translate.js" defer></script>
+    
+    <!-- Animations -->
+    <script src="../js/animations.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="../index.html" class="logo">
+                <img src="https://i.ibb.co/2YRg18bc/instaspark-logo.png" alt="InstaSpark Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span style="display:none; width:45px; height:45px; background:linear-gradient(135deg, #6366f1, #ec4899); border-radius:50%; align-items:center; justify-content:center; color:white; font-weight:800; border:2px solid #6366f1;">I</span>
+                <span class="logo-text">InstaSpark</span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link active">Tools</a>
+                <a href="../blog.html" class="nav-link">Blog</a>
+                <a href="../about/index.html" class="nav-link">About</a>
+                <a href="../contact/index.html" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" title="Toggle Light/Dark Mode">☀️</button>
+            </nav>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <button class="theme-toggle" id="theme-toggle-mobile" title="Toggle Light/Dark Mode">☀️</button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-links">
+            <a href="../index.html">🏠 Home</a>
+            <a href="index.html">🛠️ Tools</a>
+            <a href="../blog.html">📝 Blog</a>
+            <a href="../about/index.html">ℹ️ About</a>
+            <a href="../contact/index.html">📧 Contact</a>
+            <hr style="border: none; border-top: 1px solid var(--border-color); margin: 0.5rem 0;">
+            <a href="social-media/instagram-bio/index.html">📱 Instagram Bio</a>
+            <a href="social-media/hashtag-generator/index.html">#️⃣ Hashtag Generator</a>
+            <a href="social-media/username-generator/index.html">👤 Username Generator</a>
+            <a href="ai-content/caption-generator/index.html">✍️ Caption Generator</a>
+            <a href="utility/word-counter/index.html">📝 Word Counter</a>
+            <a href="utility/case-converter/index.html">🔄 Case Converter</a>
+            <a href="utility/password-generator/index.html">🔐 Password Generator</a>
+            <a href="utility/qr-generator/index.html">📱 QR Generator</a>
+        </div>
+    </nav>
+
+    <!-- Tools Dashboard -->
+    <main class="tools-dashboard">
+        <!-- Dashboard Header -->
+        <div class="dashboard-header">
+            <div class="dashboard-title">
+                <h1>🛠️ Tools Dashboard</h1>
+                <p>All your favorite tools in one place</p>
+            </div>
+            
+            <!-- Search Bar -->
+            <div class="dashboard-search">
+                <input type="text" id="tool-search" placeholder="🔍 Search tools..." onkeyup="filterTools()">
+            </div>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="dashboard-filters">
+            <button class="filter-btn active" data-filter="all" onclick="filterByCategory('all')">
+                <span>🎯</span> All Tools
+            </button>
+            <button class="filter-btn" data-filter="social" onclick="filterByCategory('social')">
+                <span>📱</span> Social Media
+            </button>
+            <button class="filter-btn" data-filter="ai" onclick="filterByCategory('ai')">
+                <span>🤖</span> AI Content
+            </button>
+            <button class="filter-btn" data-filter="youtube" onclick="filterByCategory('youtube')">
+                <span>▶️</span> YouTube
+            </button>
+            <button class="filter-btn" data-filter="utility" onclick="filterByCategory('utility')">
+                <span>⚙️</span> Utility
+            </button>
+            <button class="filter-btn" data-filter="resume" onclick="filterByCategory('resume')">
+                <span>📄</span> Resume
+            </button>
+        </div>
+
+        <!-- Tools Grid -->
+        <div class="dashboard-grid" id="tools-grid">
+            <!-- Social Media Tools -->
+            <div class="dashboard-card" data-category="social">
+                <div class="card-icon social">📱</div>
+                <div class="card-content">
+                    <h3>Instagram Bio Generator</h3>
+                    <p>Create perfect Instagram bios with multiple tones - Creative, Professional, Casual, Funny, Minimal</p>
+                    <div class="card-tags">
+                        <span class="tag social">Social</span>
+                        <span class="tag">Free</span>
+                    </div>
+                </div>
+                <a href="social-media/instagram-bio/index.html" class="card-btn">Open Tool →</a>
+            </div>
+
+            <div class="dashboard-card" data-category="social">
+                <div class="card-icon social">#️⃣</div>
+                <div class="card-content">
+                    <h3>Hashtag Generator</h3>
+                    <p>Discover trending hashtags to boost your reach. Customizable count from 5-30 hashtags</p>
+                    <div class="card-tags">
+                        <span class="tag social">Social</span>
+                        <span class="tag">Free</span>
+                    </div>
+                </div>
+                <a href="social-media/hashtag-generator/index.html" class="card-btn">Open Tool →</a>
+            </div>
+
+            <div class="dashboard-card" data-category="social">
+                <div class="card-icon social">👤</div>
+                <div class="card-content">
+                    <h3>Username Generator</h3>
+                    <p>Find unique usernames for any platform. Classic, Creative, Professional, Fun, Minimal styles</p>
+                    <div class="card-tags">
+                        <span class="tag social">Social</span>
+                        <span class="tag">Free</span>
+                    </div>
+                </div>
+                <a href="social-media/username-generator/index.html" class="card-btn">Open Tool →</a>
+            </div>
+
+            <!-- AI Content Tools -->
+            <div class="dashboard-card" data-category="ai">
+                <div class="card-icon ai">✍️</div>
+                <div class="card-content">
+                    <h3>Caption Generator</h3>
+                    <p>AI-powered captions for your posts. Inspirational, Funny, Promotional, Storytelling tones</p>
+                    <div class="card-tags">
+                        <span class="tag ai">AI</span>
+                        <span class="tag">Free</span>
+                    </div>
+                </div>
+                <a href="ai-content/caption-generator/index.html" class="card-btn">Open Tool →</a>
+            </div>
+
+            <!-- Utility Tools -->
+            <div class="dashboard-card" data-category="utility">
+                <div class="card-icon utility">📝</div>
+                <div class="card-content">
+                    <h3>Word & Character Counter</h3>
+                    <p>Real-time counting with reading time estimation. Words, characters, sentences, paragraphs</p>
+                    <div class="card-tags">
+                        <span class="tag utility">Utility</span>
+                        <span class="tag">Free</span>
+                    </div>
+                </div>
+                <a href="utility/word-counter/index.html" class="card-btn">Open Tool →</a>
+            </div>
+
+            <div class="dashboard-card" data-category="utility">
+                <div class="card-icon utility">🔄</div>
+                <div class="card-content">
+                    <h3>Case Converter</h3>
+                    <p>Convert text between 8 formats: UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case</p>
+                    <div class="card-tags">
+                        <span class="tag utility">Utility</span>
+                        <span class="tag">Free</span>
+                    </div>
+                </div>
+                <a href="utility/case-converter/index.html" class="card-btn">Open Tool →</a>
+            </div>
+
+            <div class="dashboard-card" data-category="utility">
+                <div class="card-icon utility">🔐</div>
+                <div class="card-content">
+                    <h3>Password Generator</h3>
+                    <p>Create secure passwords with strength indicator. Customizable length and character types</p>
+                    <div class="card-tags">
+                        <span class="tag utility">Utility</span>
+                        <span class="tag">Free</span>
+                    </div>
+                </div>
+                <a href="utility/password-generator/index.html" class="card-btn">Open Tool →</a>
+            </div>
+
+            <div class="dashboard-card" data-category="utility">
+                <div class="card-icon utility">📱</div>
+                <div class="card-content">
+                    <h3>QR Code Generator</h3>
+                    <p>Generate QR codes for URLs, text, contact info. Download as PNG instantly</p>
+                    <div class="card-tags">
+                        <span class="tag utility">Utility</span>
+                        <span class="tag">Free</span>
+                    </div>
+                </div>
+                <a href="utility/qr-generator/index.html" class="card-btn">Open Tool →</a>
+            </div>
+        </div>
+
+        <!-- No Results Message -->
+        <div id="no-results" class="no-results hidden">
+            <div class="no-results-icon">🔍</div>
+            <h3>No tools found</h3>
+            <p>Try adjusting your search or filter criteria</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="../index.html" class="logo">
+                    <img src="https://i.ibb.co/2YRg18bc/instaspark-logo.png" alt="InstaSpark" style="width:40px; height:40px;">
+                    <span class="logo-text">InstaSpark</span>
+                </a>
+                <p>Your all-in-one AI-powered toolkit for social media success. Create, optimize, and grow.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Tools</h4>
+                <ul>
+                    <li><a href="social-media/instagram-bio/index.html">Instagram Bio</a></li>
+                    <li><a href="social-media/hashtag-generator/index.html">Hashtag Generator</a></li>
+                    <li><a href="ai-content/caption-generator/index.html">Caption Generator</a></li>
+                    <li><a href="utility/password-generator/index.html">Password Generator</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="../about/index.html">About Us</a></li>
+                    <li><a href="../contact/index.html">Contact</a></li>
+                    <li><a href="../privacy/index.html">Privacy Policy</a></li>
+                    <li><a href="../terms/index.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 InstaSpark. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="../privacy/index.html">Privacy</a>
+                <a href="../terms/index.html">Terms</a>
+                <a href="../disclaimer/index.html">Disclaimer</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/tools.js"></script>
+    <script>
+        // Dashboard filtering functionality
+        function filterByCategory(category) {
+            // Update active filter button
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.filter === category) {
+                    btn.classList.add('active');
+                }
+            });
+
+            // Filter cards
+            const cards = document.querySelectorAll('.dashboard-card');
+            const searchTerm = document.getElementById('tool-search').value.toLowerCase();
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const cardCategory = card.dataset.category;
+                const cardText = card.textContent.toLowerCase();
+                const matchesCategory = category === 'all' || cardCategory === category;
+                const matchesSearch = cardText.includes(searchTerm);
+
+                if (matchesCategory && matchesSearch) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Show/hide no results message
+            const noResults = document.getElementById('no-results');
+            if (visibleCount === 0) {
+                noResults.classList.remove('hidden');
+            } else {
+                noResults.classList.add('hidden');
+            }
+        }
+
+        function filterTools() {
+            const activeFilter = document.querySelector('.filter-btn.active');
+            const category = activeFilter ? activeFilter.dataset.filter : 'all';
+            filterByCategory(category);
+        }
+    </script>
+</body>
+</html>

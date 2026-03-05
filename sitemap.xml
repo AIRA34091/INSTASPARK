@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://instaspark.online/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark Logo</image:title>
+      <image:caption>InstaSpark - Free AI Tools for Social Media Success</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark Logo</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Main Page -->
+  <url>
+    <loc>https://instaspark.online/blog.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark Blog</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Tools Directory -->
+  <url>
+    <loc>https://instaspark.online/tools/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark Tools</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Static Pages -->
+  <url>
+    <loc>https://instaspark.online/about/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>About InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/contact/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>Contact InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/privacy/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/terms/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/disclaimer/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Social Media Tools -->
+  <url>
+    <loc>https://instaspark.online/tools/social-media/instagram-bio/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>Instagram Bio Generator</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/tools/social-media/hashtag-generator/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>Hashtag Generator</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/tools/social-media/username-generator/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>Username Generator</image:title>
+    </image:image>
+  </url>
+  
+  <!-- AI Content Tools -->
+  <url>
+    <loc>https://instaspark.online/tools/ai-content/caption-generator/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>AI Caption Generator</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Utility Tools -->
+  <url>
+    <loc>https://instaspark.online/tools/utility/word-counter/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>Word Counter Tool</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/tools/utility/case-converter/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>Case Converter Tool</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/tools/utility/password-generator/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>Password Generator</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/tools/utility/qr-generator/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>QR Code Generator</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Articles - Main Pages -->
+  <url>
+    <loc>https://instaspark.online/blog/index.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark Blog</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 1: Best AI Tools -->
+  <url>
+    <loc>https://instaspark.online/blog/best-ai-tools-creators.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/ai-tools-featured.jpg</image:loc>
+      <image:title>Best AI Tools for Content Creators 2026</image:title>
+      <image:caption>AI content creation tools workspace</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 2: YouTube Titles -->
+  <url>
+    <loc>https://instaspark.online/blog/youtube-title-guide.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/youtube-title-featured.jpg</image:loc>
+      <image:title>YouTube Title Optimization Guide</image:title>
+      <image:caption>YouTube video title optimization</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 3: Instagram Bio -->
+  <url>
+    <loc>https://instaspark.online/blog/instagram-bio-ideas.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/instagram-bio-featured.jpg</image:loc>
+      <image:title>Instagram Bio Ideas</image:title>
+      <image:caption>Instagram profile bio optimization</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 4: Hashtag Strategy -->
+  <url>
+    <loc>https://instaspark.online/blog/instagram-hashtag-strategy.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/hashtag-strategy.jpg</image:loc>
+      <image:title>Instagram Hashtag Strategy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 5: AI for Bloggers -->
+  <url>
+    <loc>https://instaspark.online/blog/ai-tools-for-bloggers.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/ai-bloggers.jpg</image:loc>
+      <image:title>AI Tools for Bloggers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 6: Free Tools -->
+  <url>
+    <loc>https://instaspark.online/blog/free-tools-for-creators.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/free-tools.jpg</image:loc>
+      <image:title>Free Tools for Content Creators</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 7: YouTube Growth -->
+  <url>
+    <loc>https://instaspark.online/blog/youtube-growth-guide.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/youtube-growth.jpg</image:loc>
+      <image:title>YouTube Channel Growth Guide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 8: Caption Tips -->
+  <url>
+    <loc>https://instaspark.online/blog/instagram-caption-tips.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/instagram-captions.jpg</image:loc>
+      <image:title>Instagram Caption Writing Tips</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 9: Automation Tools -->
+  <url>
+    <loc>https://instaspark.online/blog/social-media-automation-tools.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/automation-tools.jpg</image:loc>
+      <image:title>Social Media Automation Tools</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Blog Article 10: AI Content Creation -->
+  <url>
+    <loc>https://instaspark.online/blog/ai-content-creation-tools.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://instaspark.online/images/blog/ai-content.jpg</image:loc>
+      <image:title>AI Content Creation Tools</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/2YRg18bc/instaspark-logo.png</image:loc>
+      <image:title>InstaSpark</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Legacy Blog Pages (for backward compatibility) -->
+  <url>
+    <loc>https://instaspark.online/blog/ai-tools-content-creators-2026.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/blog/viral-youtube-titles.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/blog/hashtag-strategies-viral.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/blog/ai-tools-bloggers.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/blog/free-tools-content-creators.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/blog/grow-youtube-channel-100k.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/blog/caption-writing-tips.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://instaspark.online/blog/social-media-automation.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
